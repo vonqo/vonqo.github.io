@@ -1,1 +1,71 @@
-TEST
+ <!--Scripts by hscripts.com--><!--More scripts @ www.hscripts.com-->
+<html>
+	<head>
+	<title>Html5 Happy New Year | Newyear Countdown Script </title>
+		<style type="text/css">
+			#contentdiv {
+				color: #fff; font-family: Tahoma,Geneva,sans-serif;
+				font-size: 2.2em;
+				font-weight: bold;
+				height: 150px;
+				line-height: normal;
+				padding: 20px;
+				text-align: center;
+				text-shadow: 0 0 5px #acfa58; border-radius:25px;
+			} .blink {
+				-moz-animation: sep-blinks 1s linear 0s infinite;
+				-webkit-animation: sep-blinks 1s linear 0s infinite; animation: sep-blinks 1s linear 0s infinite;
+			} @-moz-keyframes sep-blinks {
+				0% {opacity:1}
+				50% {opacity:0}
+				100% {opacity:1}
+			}
+			@-webkit-keyframes sep-blinks
+			{
+				0% {opacity:1}
+				50% {opacity:0}
+				100% {opacity:1}
+			}
+			@keyframes sep-blinks
+			{
+				0% {opacity:1}
+				50% {opacity:0}
+				100% {opacity:1}
+			}
+			@media screen and (max-width: 480px){#contentdiv{font-size: 18px !important;height: 100px !important;}} 
+		</style>
+	</head>
+	<body style='background-color:#111111'>
+		<div align='center'><br><br>
+			<b>
+			<font style='font-size: 22px; font-family:"arial"; color:#fff'>Something awesome is coming! :)</font>
+			</b><br><br>
+			<div id="contentdiv">
+				<span id="nday"></span> Days<br /><br />
+				<span id="nhr"></span><span class="blink"> : </span> <span id="nmins"></span><span class="blink"> : </span> <span id="nsecs"></span>
+			</div>
+		</div>
+		<script type="text/JavaScript">
+			function startTimer() {
+				var time = new Date();
+				var cur_year=time.getFullYear();
+				var month = time.getUTCMonth() + 1; //months from 1-12
+				var day = time.getUTCDate();
+				var n=cur_year+1;
+				var newyr=new Date("January 1,"+n+" 00:00:00");
+				var newyeartime=newyr.getTime();
+				var todaytm=new Date();
+				var todaytime=todaytm.getTime();
+				var timeleft=newyeartime-todaytime;
+				var leftdays = timeleft/86400000;
+				var lefthr=23-todaytm.getHours();
+				var leftmin=59-todaytm.getMinutes();
+				var leftsec=59-todaytm.getSeconds();
+				if ((Math.floor(leftdays) <= -1) || (month==1 && day==1)) { document.getElementById('contentdiv').innerHTML="Happy New Year "+n;
+				}
+				else { document.getElementById('nday').innerHTML= Math.floor(leftdays); document.getElementById('nhr').innerHTML= lefthr+" hrs"; document.getElementById('nmins').innerHTML= leftmin+" mins"; document.getElementById('nsecs').innerHTML= leftsec+" secs";
+				} t=setTimeout('startTimer()',999); }
+			startTimer();
+		</script>
+	</body>
+</html>
