@@ -123,14 +123,13 @@ New Years project ---> Re-engineering
 .amou-full{
     width: 100%;
     margin-left: 10%;
-    margin-top: 2%;
+    margin-top: 7%;
 }
 .amou-bg{
-    background-image: url('../resource2/login-background.jpg');
+    background-image: url('../resource2/collection.png');
     background-repeat: no-repeat;
     background-position: left;
-    background-size: fill;
-    background-color: #fff;
+    background-size: contain;
     width: 80%;
     height: 100%;
     margin-left: 20%;
@@ -234,7 +233,7 @@ New Years project ---> Re-engineering
 }
 .video-ltr{
     font-family: 'Ubuntu', sans-serif;
-    color: #999999;
+    color: #cfcfcf;
 }
 .do-u-know{
     position: absolute;

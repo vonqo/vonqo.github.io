@@ -152,7 +152,7 @@ img {
     z-index: 3; /* slide over group 4 and 6 */
   }
   #group5 .parallax__layer--base {
-    background: #000;
+    background: #111111;
   }
 
   #group6 {
