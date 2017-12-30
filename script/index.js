@@ -180,22 +180,6 @@ simulate(
 		}
 );
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // "simulate" particle simulation logic
 /**
  * Constants
@@ -904,7 +888,5 @@ function simulate(dimensions, options) {
 				document.addEventListener('keyup', function(e) {
 						options.action.call(self, e);
 				});
-
 		}
-
 };

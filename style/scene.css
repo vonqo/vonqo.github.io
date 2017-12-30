@@ -118,6 +118,7 @@ New Years project ---> Re-engineering
 ================================================================
 */
 @font-face { font-family: AmazingKids; src: url('../resource2/Amazing_Kids.ttf'); } 
+@font-face { font-family: Luna; src: url('../resource2/Luna.ttf'); } 
 
 .amou-full{
     width: 100%;
@@ -125,7 +126,11 @@ New Years project ---> Re-engineering
     margin-top: 2%;
 }
 .amou-bg{
-    background-color: #000;
+    background-image: url('../resource2/login-background.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: fill;
+    background-color: #fff;
     width: 80%;
     height: 100%;
     margin-left: 20%;
@@ -208,4 +213,42 @@ New Years project ---> Re-engineering
   visibility: hidden;
   display: none;
   overflow: hidden;
+}
+.xmas-letter{
+    padding-top: 75px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 75px;
+    font-family: 'Luna';
+    color: #fff;
+}
+.author-footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -15px;
+}
+.arrival{
+    font-family: 'Ubuntu', sans-serif;
+    color: #42e5f4;
+}
+.video-ltr{
+    font-family: 'Ubuntu', sans-serif;
+    color: #999999;
+}
+.do-u-know{
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 55px;
+    margin-left: 170px;
+    color: #252525;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 12px;
+}
+.notif{
+    font-family: 'Ubuntu', sans-serif;
+    color: #42e5f4;
 }

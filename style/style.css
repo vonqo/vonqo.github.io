@@ -131,7 +131,7 @@ img {
     z-index: 3; /* slide under groups 1 and 3 */
   }
   #group2 .parallax__layer--back {
-    background: #525d72; /*#05CC47;*/
+    background: #6ec466; /*#05CC47;*/
   }
 
   #group3 {
@@ -152,7 +152,7 @@ img {
     z-index: 3; /* slide over group 4 and 6 */
   }
   #group5 .parallax__layer--base {
-    background: #4FCFF7;
+    background: #000;
   }
 
   #group6 {

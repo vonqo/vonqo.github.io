@@ -273,3 +273,4 @@ function loop() {
 
 // once the window loads, we are ready for some fireworks!
 // window.onload = loop;
+isFireWorkLooping = true;
