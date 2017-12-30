@@ -1,71 +1,164 @@
- <!--Scripts by hscripts.com--><!--More scripts @ www.hscripts.com-->
+<!DOCTYPE html>
 <html>
-	<head>
-	<title>Something awesome is coming</title>
-		<style type="text/css">
-			#contentdiv {
-				color: #fff; font-family: Tahoma,Geneva,sans-serif;
-				font-size: 2.2em;
-				font-weight: bold;
-				height: 150px;
-				line-height: normal;
-				padding: 20px;
-				text-align: center;
-				text-shadow: 0 0 5px #acfa58; border-radius:25px;
-			} .blink {
-				-moz-animation: sep-blinks 1s linear 0s infinite;
-				-webkit-animation: sep-blinks 1s linear 0s infinite; animation: sep-blinks 1s linear 0s infinite;
-			} @-moz-keyframes sep-blinks {
-				0% {opacity:1}
-				50% {opacity:0}
-				100% {opacity:1}
-			}
-			@-webkit-keyframes sep-blinks
-			{
-				0% {opacity:1}
-				50% {opacity:0}
-				100% {opacity:1}
-			}
-			@keyframes sep-blinks
-			{
-				0% {opacity:1}
-				50% {opacity:0}
-				100% {opacity:1}
-			}
-			@media screen and (max-width: 480px){#contentdiv{font-size: 18px !important;height: 100px !important;}} 
-		</style>
-	</head>
-	<body style='background-color:#111111'>
-		<div align='center'><br><br>
-			<b>
-			<font style='font-size: 22px; font-family:"arial"; color:#fff'>Something awesome is coming! :)</font>
-			</b><br><br>
-			<div id="contentdiv">
-				<span id="nday"></span> Days<br /><br />
-				<span id="nhr"></span><span class="blink"> : </span> <span id="nmins"></span><span class="blink"> : </span> <span id="nsecs"></span>
-			</div>
-		</div>
-		<script type="text/JavaScript">
-			function startTimer() {
-				var time = new Date();
-				var cur_year=time.getFullYear();
-				var month = time.getUTCMonth() + 1; //months from 1-12
-				var day = time.getUTCDate();
-				var n=cur_year+1;
-				var newyr=new Date("January 1,"+n+" 00:00:00");
-				var newyeartime=newyr.getTime();
-				var todaytm=new Date();
-				var todaytime=todaytm.getTime();
-				var timeleft=newyeartime-todaytime;
-				var leftdays = timeleft/86400000;
-				var lefthr=23-todaytm.getHours();
-				var leftmin=59-todaytm.getMinutes();
-				var leftsec=59-todaytm.getSeconds();
-				if ((Math.floor(leftdays) <= -1) || (month==1 && day==1)) { document.getElementById('contentdiv').innerHTML="Happy New Year "+n;
-				}
-				else { document.getElementById('nday').innerHTML= Math.floor(leftdays); document.getElementById('nhr').innerHTML= lefthr+" hrs"; document.getElementById('nmins').innerHTML= leftmin+" mins"; document.getElementById('nsecs').innerHTML= leftsec+" secs";
-				} t=setTimeout('startTimer()',999); }
-			startTimer();
-		</script>
-	</body>
+<head>
+<meta charset="utf-8">
+<meta author="Enkh-Amar.G">
+<title>From The Giftcard</title>
+<link rel="stylesheet" href="style/style.css">
+<link rel="stylesheet" href="style/scene.css">
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="style/style-sparkle.css">
+<script src="script/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="script/jquery.easing.1.3.js"></script>
+<script src="script/jquery.nicescroll.min.js"></script>
+<script src="script/jquery.nicescroll.plus.js"></script>
+ 
+<script type="text/javascript">
+	$(document).ready(function() {
+        $("#loading").addClass("hidden-layer");
+    	$("#lock-screen").removeClass("hidden-layer");
+    	// unlock("v0M4");
+
+    	function unlock(param){
+    		if(param === "v0M4"){
+    			$("#lock-screen").addClass("hidden-layer");
+    			$("#parallax").removeClass("hidden-layer");
+          $(".parallax").niceScroll({
+            horizrailenabled: false,
+            mousescrollstep: 5
+          });
+          $(".parallax").getNiceScroll().hide();
+	         loadJS();
+    		}
+    	}
+
+    	function loadJS(){
+	      	var head= document.getElementsByTagName('head')[0];
+	      	var script= document.createElement('script');
+	      	script.type= 'text/javascript';
+	      	script.src= 'script/fireworks.js';
+	      	head.appendChild(script);
+	    }
+
+      function callit(){
+        
+        loop();
+        
+        
+      }
+
+	    $("#login-input").bind('keyup', function(){
+	    	var value = $("#login-input").val();
+	    	if(value.length > 4){
+	    		$("#login-input").val("")
+	    	}else if(value.length == 4){
+	    		unlock($("#login-input").val());
+	    		setTimeout(callit,1000);
+	    	}
+		});
+      
+	});
+
+</script>
+</head>
+<body>
+	<!-- <div>
+		<input type="checkbox" name="">
+	</div> -->
+	<div id="loading" class="title">
+		Something awesome is coming! ... (please wait)
+	</div>
+	<div id="lock-screen" class="lock-screen">
+		<div class="title">
+        	<input id="login-input" type="text" class="password-input" placeholder="Password">
+        </div>
+	</div>
+  <div id="parallax" class="parallax hidden-layer">
+    <div id="group1" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+      	<canvas id="firework-canvas"></canvas>
+        <div class="title">
+            <div class="main">
+            	
+            </div>
+        </div>
+      </div>
+    </div>
+    <div id="group2" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+        <div class="title">
+        	<div class="green-bg">
+        		
+        	</div>
+        </div>
+      </div>
+      <div class="parallax__layer parallax__layer--back">
+        <div class="title">
+
+        </div>
+      </div>
+    </div>
+    <div id="group3" class="parallax__group">
+      <div class="parallax__layer parallax__layer--fore">
+        <div class="amou-full">
+        	<img id="" src="resource2/amou-sml.png" alt=""/>
+        </div>
+      </div>
+      <div class="parallax__layer parallax__layer--base">
+	        <div class="amou-bg">
+	        	AAAAA
+	        </div>
+      </div>
+    </div>
+    <div id="group4" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+        <div class="title">
+        	
+        </div>
+      </div>
+      <div class="parallax__layer parallax__layer--back">
+        <div class="title">
+        	<div class="hand-container">
+        		<div class="hands-world">
+        			
+        		</div>
+        		<div class="hands">
+        			
+        		</div>
+        	</div>
+        </div>
+      </div>
+      <div class="parallax__layer parallax__layer--deep">
+        <div class="title">
+        	<div class="hand-text-container">
+        		Your world is a great big canvas;<br> throw all the paint you can at it.
+        	</div>
+        </div>
+      </div>
+    </div>
+    <div id="group5" class="parallax__group">
+      <div class="parallax__layer parallax__layer--fore">
+        <div class="title">
+
+        </div>
+      </div>
+      <div class="parallax__layer parallax__layer--base">
+        <div class="title">
+            
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    // var debugInput = document.querySelector("input");
+    // function updateDebugState() {
+    //     document.body.classList.toggle('debug-on', debugInput.checked);
+    // }
+    // debugInput.addEventListener("click", updateDebugState);
+    // updateDebugState();
+  </script>
+  <!-- <script src="script/fireworks.js"></script> -->
+  <script src="script/index.js"></script>
+  
+</body>
 </html>
