@@ -9,9 +9,16 @@
 	<link rel="shortcut icon" type="image/x-icon" href="assets/user/favicon.ico"/>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-64LQKFVSF8"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-64LQKFVSF8');
+	</script>
+
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/picocss/1.4.4/pico.min.css" integrity="sha512-RAtoAGzPS5T5sUpCfVpkY5EHHDcqEp26rHYNee0Vx4RT1pxJrt3CWQCVD/ekrPdMowT4ybxYvqClqf9v7oWxYw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" id="highlight-styles">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js" integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js" integrity="sha512-L03kznCrNOfVxOUovR6ESfCz9Gfny7gihUX/huVbQB9zjODtYpxaVtIaAkpetoiyV2eqWbvxMH9fiSv5enX7bw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<title>vonqo</title>
@@ -28,11 +35,14 @@
 		}
 
 		p > img {
-			max-width: 680px;
+			max-width: 720px;
+			width: 100%;
 		}
 
 		hr {
-			border-top: 1px solid rgba(25,25,25,0.5);
+			border: 0;
+			height: 1px;
+			background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(255, 255, 255, 0.5), rgba(0,0,0,0));
 		}
 
 		/* focus indicator for a11y */
@@ -66,31 +76,65 @@
 			font-family: "JetBrains Mono", monospace;
 			font-optical-sizing: auto;
 			font-style: normal;
+			color: rgba(255,255,255,0.75);
+		}
+
+		p, li {
+			color: rgba(255,255,255,0.6);
 		}
 
 		body {
-			/* width: 400px;
-			height: 200px; */
 			min-height: 100vh;
-			background:
-					linear-gradient(-90deg, rgba(0,0,0,.07) 1px, transparent 1px),
-					linear-gradient(rgba(0,0,0,.07) 1px, transparent 1px), 
-					linear-gradient(-90deg, rgba(0, 0, 0, .04) 1px, transparent 1px),
-					linear-gradient(rgba(0,0,0,.05) 1px, transparent 1px),
-					linear-gradient(transparent 3px, transparent 3px, transparent 78px, transparent 78px),
-					linear-gradient(-90deg, transparent 1px, transparent 1px),
-					linear-gradient(-90deg, transparent 3px, transparent 3px, transparent 78px, transparent 78px),
-					linear-gradient(transparent 1px, transparent 1px),
-					transparent;
-				background-size:
-					10px 10px,
-					10px 10px,
-					200px 200px,
-					200px 200px,
-					200px 200px,
-					200px 200px,
-					200px 200px,
-					200px 200px;
+			background: rgb(98,98,98);
+			background: radial-gradient(ellipse at top, rgb(77, 77, 77) 0%, rgb(45, 46, 45) 61%, rgb(25, 26, 25) 100%);
+			background-size: 200% 100%;
+			filter: contrast(110%) brightness(100%);
+			-webkit-animation: AnimationName 24s ease infinite;
+    		-moz-animation: AnimationName 24s ease infinite;
+			-o-animation: AnimationName 24s ease infinite;
+			animation: GradientMove 24s ease infinite;
+		}
+
+		.noise {
+			/* position: fixed;
+			z-index: -1;
+			height: 100%;
+			width: 100%;
+			background: radial-gradient(circle, rgba(98,98,98,1) 0%, rgba(67,70,69,0) 61%, rgba(49,54,51,0) 100%);
+			filter: contrast(160%) brightness(120%); */
+		}
+
+		@-webkit-keyframes GradientMove {
+			0%{background-position:0% 77%}
+			50%{background-position:100% 24%}
+			100%{background-position:0% 77%}
+		}
+		@-moz-keyframes GradientMove {
+			0%{background-position:0% 77%}
+			50%{background-position:100% 24%}
+			100%{background-position:0% 77%}
+		}
+		@-o-keyframes AnimationName {
+			0%{background-position:0% 77%}
+			50%{background-position:100% 24%}
+			100%{background-position:0% 77%}
+		}
+		@keyframes GradientMove {
+			0%{background-position:0% 77%}
+			50%{background-position:100% 24%}
+			100%{background-position:0% 77%}
+		}
+
+		.noise::after {
+			content: "";
+			position: absolute;
+			mix-blend-mode: overlay;
+			z-index: -1;
+			width: 100%;
+			height: 100%;
+			background-repeat: repeat;
+			background-position: center center;
+			background-image: url(https://grainy-gradients.vercel.app/noise.svg);
 		}
 		
 		/* adjust heading margins */
@@ -110,157 +154,95 @@
 
 		/* increase color contrast for a11y */
 		[data-theme="light"] a {
-			/* background-color: rgba(0, 209, 174, .1); */
-			color: rgba(11, 140, 118, 1);
+			color: rgba(8, 237, 199, 0.7);
 		}
 
 		[data-theme="light"] code {
-			color: rgb(80, 105, 115);
+			color: rgb(224, 224, 224);
 		}
 
-		[data-theme="dark"] code {
-			color: rgb(135, 150, 160);
+		[data-theme="light"] code {
+			background-color: rgba(82, 83, 80, 0.5);
 		}
 
-		[data-theme="light"] pre code {
-			color: initial;
+		.header {
+			height: 2rem;
+			/* border-bottom: 1px solid black; */
+			background-color: rgba(0, 0, 0, 0.4);
+			display: flex;
+			padding: 0 20px;
+			justify-content: start;
+			align-items: center;
+			color: rgba(255, 255, 255, 0.2);
+			font-size: 0.7rem;
 		}
 
-		[data-theme="dark"] pre code {
-			color: initial;
-		}
-
-		[data-theme="light"] a code {
-			color: #80556b !important;
-		}
-
-		[data-theme="dark"] a code {
-			color: #b77a99 !important;
-		}
-
-		[data-theme="light"] .hljs {
-			background: #fcfcfc;
-		}
-		
-		[data-theme="dark"] .hljs {
-			background: #0d1418;
-		}
-
-		[data-theme="light"] .hljs-comment, .hljs-deletion, .hljs-meta {
-			color: #555;
-		}
-
-		[data-theme="dark"] .hljs-comment, .hljs-deletion, .hljs-meta {
-			color: #ccc;
-		}
 	</style>
 </head>
 
 <body>
+	<div class="noise"></div>
+	<div class="header" id="hdr">
+		ヾ(-_- )ゞ
+	</div>
 	<main role="main" class="container">
-		<!-- <a href="#" role="button" onclick="toggleLight();return false;" id="light-toggle" class="contrast">=> Dark_</a> -->
 		<div id="insert"></div>
 	</main>
+	<script type="text/javascript">
 
-<script type="text/javascript">
-
-// set syntax highlighting theme based on light or dark mode
-function setHighlightTheme(mode) {
-	var link = document.getElementById('highlight-styles');
-	if (mode == "light") {
-		link.href = 'https://unpkg.com/@highlightjs/cdn-assets@11.4.0/styles/a11y-light.min.css'; 
-	}
-	if (mode == "dark") {
-		link.href = 'https://unpkg.com/@highlightjs/cdn-assets@11.4.0/styles/monokai-sublime.min.css'; 
-	}
-}
-
-// toggle between light and dark mode
-function toggleLight() {
-	var mode = localStorage.getItem("mode");
-	if (mode == "light") {
-		document.documentElement.setAttribute("data-theme", "dark");
-		document.getElementById('light-toggle').innerHTML = "=> Light";
-		document.getElementById('light-toggle').style.color = "#333";
-    	localStorage.setItem("mode", "dark");
-		setHighlightTheme("dark");
-	}
-	if (mode == "dark" || mode == null) {
-		document.documentElement.setAttribute("data-theme", "light");
-		document.getElementById('light-toggle').innerHTML = "=> Dark_";
-		document.getElementById('light-toggle').style.color = "#ddd";
-		localStorage.setItem("mode", "light");
-		setHighlightTheme("light");
-	}
-}
-
-// helper function to grab query string value
-function getParameterByName(name, url = window.location.href) {
-    name = name.replace(/[\[\]]/g, '\\$&');
-    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, ' '));
-}
-
-// build URL for markdown file
-var page = getParameterByName('page');
-if (page) {
-	page = "pages/" + page + ".md"
-} else {
-	page = "README.md";
-}
-
-// request markdown file
-var client = new XMLHttpRequest();
-client.open('GET', page);
-client.onreadystatechange = function() {
-	if (client.readyState == 4 && client.status == 200) {
-		if (client.responseText) {
-			var div = document.getElementById('insert');
-			div.innerHTML += client.responseText;
-			var conv = new showdown.Converter();
-			conv.setOption('tables', 'true');
-			conv.setOption('emoji', 'true');
-			conv.setOption('ghCompatibleHeaderId', 'true');
-			conv.setOption('simpleLineBreaks', 'true');
-			conv.setOption('strikethrough', 'true');
-			conv.setOption('tasklists', 'true');
-			conv.setOption('parseImgDimensions', 'true');
-			//conv.setOption('ghCodeBlocks', 'true');
-			//conv.setOption('openLinksInNewWindow', 'true');
-			
-			// convert markdown to HTML
-			document.getElementById('insert').innerHTML = conv.makeHtml(div.textContent);
-
-			// set title as first h1 plus site title
-			var h1s = document.getElementsByTagName("h1");
-			for (var i = 0; i < h1s.length; i++) {
-			    var h1 = h1s[i];
-			    document.title = h1.innerText + " | " + document.title;
-			}
-
-			// apply syntax highlighting for code blocks
-			hljs.highlightAll();
+		// helper function to grab query string value
+		function getParameterByName(name, url = window.location.href) {
+			name = name.replace(/[\[\]]/g, '\\$&');
+			var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+				results = regex.exec(url);
+			if (!results) return null;
+			if (!results[2]) return '';
+			return decodeURIComponent(results[2].replace(/\+/g, ' '));
 		}
-	}
-}
-client.send();
 
-// get current light/dark mode on page load
-(function () {
-	var mode = localStorage.getItem("mode");
-	if (mode == "light") {
-		document.documentElement.setAttribute("data-theme", "light");
-		document.getElementById('light-toggle').innerHTML = "=> Dark_";
-		document.getElementById('light-toggle').style.color = "#ddd";
-		setHighlightTheme("light");
-	} else {
-		setHighlightTheme("dark");
-	}
-})();
+		// build URL for markdown file
+		var page = getParameterByName('page');
+		if (page) {
+			page = "pages/" + page + ".md"
+		} else {
+			page = "README.md";
+		}
 
-</script>
+		// request markdown file
+		var client = new XMLHttpRequest();
+		client.open('GET', page);
+		client.onreadystatechange = function() {
+			if (client.readyState == 4 && client.status == 200) {
+				if (client.responseText) {
+					var div = document.getElementById('insert');
+					div.innerHTML += client.responseText;
+					var conv = new showdown.Converter();
+					conv.setOption('tables', 'true');
+					conv.setOption('emoji', 'true');
+					conv.setOption('ghCompatibleHeaderId', 'true');
+					conv.setOption('simpleLineBreaks', 'true');
+					conv.setOption('strikethrough', 'true');
+					conv.setOption('tasklists', 'true');
+					conv.setOption('parseImgDimensions', 'true');
+					//conv.setOption('ghCodeBlocks', 'true');
+					//conv.setOption('openLinksInNewWindow', 'true');
+					
+					// convert markdown to HTML
+					document.getElementById('insert').innerHTML = conv.makeHtml(div.textContent);
+
+					// set title as first h1 plus site title
+					var h1s = document.getElementsByTagName("h1");
+					for (var i = 0; i < h1s.length; i++) {
+						var h1 = h1s[i];
+						document.title = h1.innerText + " | " + document.title;
+					}
+
+					// apply syntax highlighting for code blocks
+					hljs.highlightAll();
+				}
+			}
+		}
+		client.send();
+	</script>
 </body>
 </html>

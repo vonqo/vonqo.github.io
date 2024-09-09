@@ -1,7 +1,5 @@
 # About
 
-Seriously? 
-
 Hello I'm a software fellow who goes by the name **vonqo**. I live in Ulaanbaatar, Mongolia. 
 
 ### Contact & Links
