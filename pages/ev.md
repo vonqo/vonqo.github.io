@@ -2,6 +2,7 @@
 
 I have been fortunate to have the opportunity to participate in exhibitions, events and freelance work.
 
+- [Voice of Nomads 2024](#voice-of-nomads--голос-кочевников-2024)
 - [B.L.M.D Vol.7](#blmd-vol7)
 - [Ulaanbaatar International Media Art Festival 2024](#ulaanbaatar-international-media-art-festival-2024)
 - [TAMLAGA Join Exhibition](#tamlaga-join-exhibition)
@@ -14,13 +15,23 @@ I have been fortunate to have the opportunity to participate in exhibitions, eve
 
 ----------------------
 
+### Voice of Nomads / Голос Кочевников 2024
+
+![](assets/image/ev/voice_of_nomads24.jpg)
+
+_date: 07/2024_
+
+Concert/Gig. B.L.M.D group was invited to the 14th "Voice of Nomads" music festival held in Buryat. Performed LED visuals of B.L.M.D on the Luna stage.
+
+----------------------
+
 ### B.L.M.D Vol.7
 
 ![](assets/image/ev/blmd_vol7.jpg)
 
 _date: 05/2024_
 
-Live visual performance of music band B.L.M.D and Even Tide on LED screen.
+Concert/Gig. Performed LED visuals of B.L.M.D and Even Tide. + Experimented live camera feedback with glitching compression artifact effect. 
 
 ----------------------
 
@@ -33,6 +44,9 @@ _date: 05/2024_
 Participated as the following artwork:
 
 * **Echo** - Audio interactive installation `unity 3D` `cloudpoint` `arduino`
+
+Curator’s USP 
+“Every action we do has consequences, and the consequences and causes follow our actions like an echo.”  Enkh-Amar's interactive media installation “Echo” shows our interconnectedness and entanglement in the world, which we often cannot see in this direct way, and makes it tangible.
 
 ----------------------
 
@@ -54,7 +68,7 @@ Participated as the following artwork:
 
 _date: 09/2023_
 
-Live visual performance of music band B.L.M.D and Even Tide on LED screen.
+Concert/Gig. Performed LED visuals of B.L.M.D and Even Tide.
 
 ----------------------
 
@@ -64,7 +78,7 @@ Live visual performance of music band B.L.M.D and Even Tide on LED screen.
 
 _date: 09/2023_
 
-Live visual performance of music band B.L.M.D and Even Tide on LED screen.
+Concert/Gig. Performed LED visuals of B.L.M.D and Even Tide. (Got too drunk)
 
 ----------------------
 
@@ -78,6 +92,8 @@ Participated as the following artwork:
 
 * **Cloudy Nostalgia** - Audio interactive work `unity 3D` `photogrammetry`
 
+"Cloudy Nostalgia depicts everyday scenes of the present and the past of Ulaanbaatar in 3D. As they travel through the scenes, the viewer brings them to life through their voices and movements, making sounds and noises into the microphone, lighting their way as the images float like distant memories."
+
 ----------------------
 
 ### Night Train Live Concert 2022
@@ -86,7 +102,7 @@ Participated as the following artwork:
 
 _date: 11/2022_
 
-LED Engineering and Visuals `p5js` `glsl`
+Concert/Gig. Performed LED visuals of Night Train `p5js` `glsl`
 
 ----------------------
 

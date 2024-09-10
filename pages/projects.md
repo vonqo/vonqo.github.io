@@ -13,6 +13,7 @@ With the passion of expressing myself in a way of programming, here are my madma
 _since: 10/2018_ `java` `c++` `processing`
 
 Repository of creative coding integrations and playground. Codebase is focused on audio visualization and image manipulation. Some visual ouputs are posted on following pages.
+
 - [facebook](https://www.facebook.com/colornotecode)
 - [instagram](https://www.instagram.com/colornotecode/)
 - [youtube](https://www.youtube.com/channel/UCGmwCteDtjSBGco4qqs1QIQ)
@@ -25,9 +26,11 @@ Repository: [GitHub ![GitHub Logo](assets/user/github.png)](https://github.com/v
 
 _since: 06/2020_ `p5js` `three.js` `glsl` `electronjs`
 
-B.L.M.D is an experimental musical collective from Mongolia that mixes different genres in their production (trip hop, rap, experimental rock, electronic), emphasizing on the "dopeness" of the sound rather than a specific style. I collaborated with B.L.M.D to create visuals for the band in 2020. Since then I became a member of the group.
+B.L.M.D is an experimental musical collective from Mongolia that mixes different genres in their production (trip hop, rap, experimental rock, electronic), emphesizing the "dopeness" of the sound rather than a specific style. 
 
-Even Tide is almost a sister band to B.L.M.D and shares most of its members. The difference is that it has a female vocalist and a softer tone.
+Even Tide is almost a sister band to B.L.M.D and shares most of its members. The difference is that it has a female lead singer and a deeper, melancholic theme.
+
+I collaborated with B.L.M.D and Even Tide to create visuals for the concert in 2020. Since then I became a member of the group.
 
 I developed a real-time audio visualizer app and continously implementing band's ideas into it.
 
