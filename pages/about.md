@@ -1,6 +1,6 @@
 # About
 
-Hello I'm a software fellow who goes by the name **vonqo**. I live in Ulaanbaatar, Mongolia. 
+Hello I'm a software fellow who goes by the name **vonqo**. I live in Ulaanbaatar, Mongolia. I'm open to teach and give lectures about enterprise programming and creative coding. 
 
 ### Contact & Links
 
