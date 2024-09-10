@@ -1,4 +1,4 @@
-# Works and Events
+# Artworks and Events
 
 I have been fortunate to have the opportunity to participate in exhibitions, events and freelance work.
 
