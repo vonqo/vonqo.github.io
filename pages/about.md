@@ -5,7 +5,7 @@ I'm open to teach and give lectures about enterprise programming and creative co
 
 ### Programming arsenal
 - **Enterprise:** Flutter (Dart), Spring Boot (Java), React (TS, JSX), SQL
-- **Misc:** Python, FFmpeg, C#, C++
+- **Misc:** Python, FFmpeg, MIDI, C#, C++
 - **Hobby:** GLSL, p5, Unity3D
 
 ### Contact & Links
