@@ -83,17 +83,31 @@
 			color: rgba(255,255,255,0.6);
 		}
 
-		body {
-			min-height: 100vh;
-			background: rgb(98,98,98);
-			background: radial-gradient(ellipse at top, rgb(77, 77, 77) 0%, rgb(45, 46, 45) 61%, rgb(25, 26, 25) 100%);
-			background-size: 200% 100%;
-			filter: contrast(110%) brightness(100%);
-			-webkit-animation: AnimationName 24s ease infinite;
-    		-moz-animation: AnimationName 24s ease infinite;
-			-o-animation: AnimationName 24s ease infinite;
-			animation: GradientMove 24s ease infinite;
+		@media (any-pointer: coarse) {
+			body {
+				min-height: 100vh;
+				background: rgb(98,98,98);
+				background: radial-gradient(ellipse at top, rgb(77, 77, 77) 0%, rgb(45, 46, 45) 61%, rgb(25, 26, 25) 100%);
+				background-size: 100% 100%;
+				filter: contrast(110%) brightness(100%);
+			}
 		}
+
+		@media (any-pointer: fine) {
+			body {
+				min-height: 100vh;
+				background: rgb(98,98,98);
+				background: radial-gradient(ellipse at top, rgb(77, 77, 77) 0%, rgb(45, 46, 45) 61%, rgb(25, 26, 25) 100%);
+				background-size: 200% 100%;
+				filter: contrast(110%) brightness(100%);
+				-webkit-animation: AnimationName 24s ease infinite;
+				-moz-animation: AnimationName 24s ease infinite;
+				-o-animation: AnimationName 24s ease infinite;
+				animation: GradientMove 24s ease infinite;
+			}
+		}
+
+		
 
 		.noise {
 			/* position: fixed;
