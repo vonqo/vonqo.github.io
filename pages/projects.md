@@ -27,7 +27,7 @@ Repository: [GitHub ![GitHub Logo](assets/user/github.png)](https://github.com/v
 
 A small audio-reactive visualizer desktop software. Developed specifically for B.L.M.D and Even Tide band visuals. And I'm continously implementing band's ideas into it.
 
-B.L.M.D is an experimental musical collective from Mongolia that mixes different genres in their production (trip hop, rap, experimental rock, electronic), emphesizing the "dopeness" of the sound rather than a specific style. 
+B.L.M.D is an experimental musical collective from Mongolia that mixes different genres in their production, emphesizing the "dopeness" of the sound rather than a specific style. 
 
 Even Tide is almost a sister band to B.L.M.D and shares most of its members. The difference is that it has a female lead singer and a deeper, melancholic theme.
 
@@ -39,9 +39,9 @@ Repository: [GitHub ![GitHub Logo](assets/user/github.png)](https://github.com/v
 
 ### devola3
 
-A flexible audio-reactive software equipped with more extensive features than devola2.
+devola3 is a C++ port of devola2, and is a much faster and more optimized version. The development process is quite complex due to platform-specific code, making it less flexible and unstable.
 
-_since: 09/2024 `chromium` `ffmpeg` `electronjs`
+_since: 10/2024 `openFrameworks` `OpenGL` `ffmpeg`
 
 ----------------------
 
