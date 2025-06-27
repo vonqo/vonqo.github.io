@@ -7,6 +7,23 @@
     },
     "timeline": [
         {
+            "title": "Into the Tunnel",
+            "date": "2025-05-31",
+            "desc": "B.L.M.D @UGArena",
+            "tags": ["concert/gig"],
+            "images": []
+        },
+        {
+            "title": "devola3",
+            "date": "2025-04-++",
+            "desc": "devola3 is a complete re-build of devola2 on openFrameworks, significantly improving rendering performance, input and output control. Due to the limitations of WebGL, a move to a native platform was necessary.",
+            "tags": ["project"],
+            "images": [
+                "images/devola3/sketch.jpg",
+                "images/devola3/sketch2.webp"
+            ]
+        },
+        {
             "title": "Deathwish 2024 Xtravaganza",
             "date": "2024-10-30",
             "desc": "B.L.M.D performed at the annual techno/rock halloween party hosted by TEPPAKT.",
