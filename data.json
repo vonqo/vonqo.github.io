@@ -7,20 +7,49 @@
     },
     "timeline": [
         {
+            "title": "Artwork of \"Zarimdaa Zuils\"",
+            "date": "2025-08-25",
+            "desc": "Artwork and logo redesign for the of album \"Zarimdaa Zuils\" by Dotor Khuree",
+            "tags": ["artwork"],
+            "images": [
+                "images/zarimdaa_zuils/album.jpg",
+                "images/zarimdaa_zuils/sketch.jpg",
+                "images/zarimdaa_zuils/logo.jpg"
+            ]
+        },
+        {
+            "title": "Art'n Tech Festival of Nomads",
+            "date": "2025-08-08",
+            "desc": "I participated with visual interactive installation called \"Forest Breeze\". Tried to illustrate the forests and green walls thath could be created through our involvement",
+            "tags": ["artwork"],
+            "images": [
+                "images/shamballa2056/profile.jpg",
+                "images/shamballa2056/demo.gif",
+                "images/shamballa2056/install.gif"
+            ]
+        },
+        {
             "title": "Into the Tunnel",
             "date": "2025-05-31",
-            "desc": "B.L.M.D @UGArena",
+            "desc": "B.L.M.D played at electronic and live music event @UGPalace",
             "tags": ["concert/gig"],
-            "images": []
+            "images": [
+                "images/intothetunnel/tunnel.jpg",
+                "images/intothetunnel/blmd1.jpg",
+                "images/intothetunnel/blmd2.jpg"
+            ]
         },
         {
             "title": "devola3",
             "date": "2025-04-++",
-            "desc": "devola3 is a complete re-build of devola2 on openFrameworks, significantly improving rendering performance, input and output control. Due to the limitations of WebGL, a move to a native platform was necessary.",
+            "desc": "A small audio-reactive visualizer desktop software. Developed specifically for B.L.M.D and Even Tide band visuals. Devola3 is a complete re-build of devola2 on openFrameworks, significantly improving rendering performance, input and output control. Due to the limitations of WebGL, a move to a native platform was necessary.",
             "tags": ["project"],
             "images": [
                 "images/devola3/sketch.jpg",
-                "images/devola3/sketch2.webp"
+                "images/devola3/sketch2.webp",
+                "images/devola2/live_1.gif",
+                "images/devola2/live_2.gif",
+                "images/devola2/live_3.gif"
             ]
         },
         {
