@@ -2,15 +2,26 @@
     "about": {
         "name": "vonqo",
         "headline": "",
-        "bio": "Hello I'm a software fellow who goes by the name vonqo. Apart from my full-time job, i love to create wack softwares that usually incorporate audio visuals and interactive experiences. <br>1/5 of B.L.M.D  <br>1/6 of Even Tide",
+        "bio": "Hello I'm a software fellow who goes by the name vonqo. Apart from my full-time job, i love to create wack softwares that usually incorporate audio visuals and interactive experiences. <br>1/5 of <a target='_blank' href='https://linktr.ee/theblmd'>B.L.M.D</a>  <br>1/6 of <a target='_blank' href='https://www.instagram.com/eventide.mn/'>Even Tide</a>",
         "contact": "ig: vonqo_ | tel: +976 9552 1824 "
     },
     "timeline": [
         {
+            "title": "Untitled game",
+            "date": "2025-12-++",
+            "desc": "Top-down shooter video game. Co-op/Solo campaign. Developing on Unity Engine.",
+            "tags": [
+                "project"
+            ],
+            "images": []
+        },
+        {
             "title": "Artwork of \"Zarimdaa Zuils\"",
             "date": "2025-08-25",
             "desc": "Artwork and logo redesign for the of album \"Zarimdaa Zuils\" by Dotor Khuree",
-            "tags": ["artwork"],
+            "tags": [
+                "artwork"
+            ],
             "images": [
                 "images/zarimdaa_zuils/album.jpg",
                 "images/zarimdaa_zuils/sketch.jpg",
@@ -21,7 +32,9 @@
             "title": "Art'n Tech Festival of Nomads",
             "date": "2025-08-08",
             "desc": "I participated with visual interactive installation called \"Forest Breeze\". Tried to illustrate the forests and green walls thath could be created through our involvement",
-            "tags": ["artwork"],
+            "tags": [
+                "artwork"
+            ],
             "images": [
                 "images/shamballa2056/profile.jpg",
                 "images/shamballa2056/demo.gif",
@@ -32,7 +45,9 @@
             "title": "Into the Tunnel",
             "date": "2025-05-31",
             "desc": "B.L.M.D played at electronic and live music event @UGPalace",
-            "tags": ["concert/gig"],
+            "tags": [
+                "concert/gig"
+            ],
             "images": [
                 "images/intothetunnel/tunnel.jpg",
                 "images/intothetunnel/blmd1.jpg",
@@ -42,8 +57,10 @@
         {
             "title": "devola3",
             "date": "2025-04-++",
-            "desc": "A small audio-reactive visualizer desktop software. Developed specifically for B.L.M.D and Even Tide band visuals. Devola3 is a complete re-build of devola2 on openFrameworks, significantly improving rendering performance, input and output control. Due to the limitations of WebGL, a move to a native platform was necessary.",
-            "tags": ["project"],
+            "desc": "A small audio-reactive visualizer desktop software. Developed specifically for B.L.M.D and Even Tide band visuals. Devola3 is a complete re-build of devola2 on openFrameworks, significantly improving rendering performance, input and output control.",
+            "tags": [
+                "project"
+            ],
             "images": [
                 "images/devola3/sketch.jpg",
                 "images/devola3/sketch2.webp",
@@ -56,7 +73,9 @@
             "title": "Deathwish 2024 Xtravaganza",
             "date": "2024-10-30",
             "desc": "B.L.M.D performed at the annual techno/rock halloween party hosted by TEPPAKT.",
-            "tags": ["concert/gig"],
+            "tags": [
+                "concert/gig"
+            ],
             "images": [
                 "images/deathwish2024/1.jpg",
                 "images/deathwish2024/2.jpg",
@@ -70,7 +89,9 @@
             "title": "piksil",
             "date": "2024-08-++",
             "desc": "A small tool for creating motion pixel-art. Based on p5js and pixil.art formats.",
-            "tags": ["project"],
+            "tags": [
+                "project"
+            ],
             "images": [
                 "images/piksil/1.png",
                 "images/piksil/2.png",
@@ -83,14 +104,18 @@
             "title": "Хөгжмийг дүрслэх арга замууд",
             "date": "2024-08-07",
             "desc": "An article about creative coding and how the Color Note Code project was implemented.<br>Read: <a target='_blank' href='https://medium.com/socraftes/%D1%85%D3%A9%D0%B3%D0%B6%D0%BC%D0%B8%D0%B9%D0%B3-%D0%B4%D2%AF%D1%80%D1%81%D0%BB%D1%8D%D1%85-%D0%B0%D1%80%D0%B3%D0%B0-%D0%B7%D0%B0%D0%BC%D1%83%D1%83%D0%B4-81c01f84f0ef'>Medium</a>",
-            "tags": ["article"],
+            "tags": [
+                "article"
+            ],
             "images": []
         },
         {
             "title": "Voice of Nomads / Голос Кочевников 2024",
             "date": "2024-07-11",
             "desc": "B.L.M.D was invited to the 14th \"Voice of Nomads\" music festival held in Buryat.",
-            "tags": ["concert/gig"],
+            "tags": [
+                "concert/gig"
+            ],
             "images": [
                 "images/voicenomads2024/voice_of_nomads24.jpg"
             ]
@@ -99,7 +124,9 @@
             "title": "B.L.M.D Vol.7",
             "date": "2024-05-31",
             "desc": "B.L.M.D, Even Tide, Dotor Khuree, Busca, Mistabone @Ulaanbaatar <br>-Балмад",
-            "tags": ["concert/gig"],
+            "tags": [
+                "concert/gig"
+            ],
             "images": [
                 "images/blmd7/blmd_vol7.jpg",
                 "images/blmd7/1.jpg",
@@ -116,7 +143,9 @@
             "title": "Ulaanbaatar International Media Art Festival 2024",
             "date": "2024-05-07",
             "desc": "Ulaanbaatar International Media Art Festival, organized annually by the Arts Council of Mongolia (ACM), was held in Ulaanbaatar for the 9th year under the theme \"Seeing is Believing\". ",
-            "tags": ["artwork"],
+            "tags": [
+                "artwork"
+            ],
             "images": [
                 "images/ubimaf2024/ubimaf24.jpg",
                 "images/ubimaf2024/artist.jpg",
@@ -130,7 +159,9 @@
             "title": "TAMLAGA Join Exhibition",
             "date": "2023-10-18",
             "desc": "A joint exhibition. I participated with my video work called \"Goolingo Contrast\".",
-            "tags": ["artwork"],
+            "tags": [
+                "artwork"
+            ],
             "images": [
                 "images/tamlaga/tamlaga.jpg"
             ]
@@ -139,7 +170,9 @@
             "title": "B.L.M.D Vol.6 - The Ritual",
             "date": "2023-09-08",
             "desc": "B.L.M.D, Starfish, Even Tide, Eamar, Buska @Ulaanbaatar <br>-Балмад",
-            "tags": ["concert/gig"],
+            "tags": [
+                "concert/gig"
+            ],
             "images": [
                 "images/blmd6/blmd_vol6.jpg",
                 "images/blmd6/1.jpg",
@@ -150,7 +183,9 @@
             "title": "B.L.M.D Vol.5 - Хөдөлдөг хивс (Live Rug)",
             "date": "2023-05-28",
             "desc": "B.L.M.D, Enkoolion, Bodikhuu, eid55558.55 @Ulaanbaatar <br>-Балмад",
-            "tags": ["concert/gig"],
+            "tags": [
+                "concert/gig"
+            ],
             "images": [
                 "images/blmd5/blmd_vol5.jpg",
                 "images/blmd5/1.jpg",
@@ -165,7 +200,9 @@
             "title": "Ulaanbaatar International Media Art Festival 2023",
             "date": "2023-05-23",
             "desc": "Ulaanbaatar International Media Art Festival, organized annually by the Arts Council of Mongolia (ACM), was held in Ulaanbaatar for the 8th year under the theme \"Montage\". ",
-            "tags": ["artwork"],
+            "tags": [
+                "artwork"
+            ],
             "images": [
                 "images/ubimaf2023/ubimaf23.jpg",
                 "images/ubimaf2023/1.jpg",
@@ -178,7 +215,9 @@
             "title": "Night Train Live Concert 2022",
             "date": "2022-11-12",
             "desc": "Night Train band performed on stage after many years. I worked as an LED visual artist.",
-            "tags": ["concert/gig"],
+            "tags": [
+                "concert/gig"
+            ],
             "images": [
                 "images/night_train/night_train.jpg",
                 "images/night_train/nt1.jpg",
@@ -189,7 +228,9 @@
             "title": "Playtime Music Festival 2022",
             "date": "2022-07-11",
             "desc": "LED operation and visuals for B.L.M.D and Even Tide at New Wage Stage.",
-            "tags": ["concert/gig"],
+            "tags": [
+                "concert/gig"
+            ],
             "images": [
                 "images/playtime2022/1.jpg",
                 "images/playtime2022/2.jpg"
@@ -199,7 +240,9 @@
             "title": "Ulaanbaatar International Media Art Festival 2022 ",
             "date": "2022-06-16",
             "desc": "Ulaanbaatar International Media Art Festival, organized annually by the Arts Council of Mongolia (ACM), was held in Ulaanbaatar for the 7th year under the theme \"Divoccinated\".<br><br>I participated in the exhibition with the following two works. <ul><li>The Loop - Audio reactive installation</li><li>The Ray - Video work. <a target='_blank' href='https://www.youtube.com/watch?v=OGsn-PbV8Vk'>YouTube</a> (Sound by Nyamkhuu NX)</li></ul>",
-            "tags": ["artwork"],
+            "tags": [
+                "artwork"
+            ],
             "images": [
                 "images/ubimaf2022/ubimaf22.jpg",
                 "images/ubimaf2022/artist.jpg",
@@ -210,14 +253,18 @@
             "title": "Ширхэг пиксел шижир алт",
             "date": "2020-12-30",
             "desc": "An article about video encoding and distribution. Container, x265, x264, Bitrate, FPS <br><b>Read: <a target='_blank' href='https://medium.com/socraftes/%D1%88%D0%B8%D1%80%D1%85%D1%8D%D0%B3-%D0%BF%D0%B8%D0%BA%D1%81%D0%B5%D0%BB-%D1%88%D0%B8%D0%B6%D0%B8%D1%80-%D0%B0%D0%BB%D1%82-1c592cc6e909'>Medium</a></b>",
-            "tags": ["article"],
+            "tags": [
+                "article"
+            ],
             "images": []
         },
         {
             "title": "//color/note/code_v0.1",
             "date": "2020-10-04",
             "desc": "Organized a creative coding lecture with the help of \"Young Researchers Support Fund\" non Governmental Organization.",
-            "tags": ["lecture"],
+            "tags": [
+                "lecture"
+            ],
             "images": [
                 "images/colornotecode/1.jpg",
                 "images/colornotecode/2.jpg",
@@ -228,7 +275,9 @@
             "title": "devola2",
             "date": "2020-06-++",
             "desc": "A small audio-reactive visualizer desktop software. Developed specifically for B.L.M.D and Even Tide band visuals. And I'm continously implementing band's ideas into it. <br><br>B.L.M.D is an experimental musical collective from Mongolia that mixes different genres in their production (trip hop, rap, experimental rock, electronic), emphesizing the \"dopeness\" of the sound rather than a specific style. <br><br>Even Tide is almost a sister band to B.L.M.D and shares most of its members. The difference is that it has a female lead singer and a deeper, melancholic theme.<br><ul><li><a target='_blank' href='https://github.com/vonqo/devola2'>Github</a></li></ul>",
-            "tags": ["project"],
+            "tags": [
+                "project"
+            ],
             "images": [
                 "images/devola2/live_1.gif",
                 "images/devola2/live_2.gif",
@@ -239,14 +288,18 @@
             "title": "Микросервис архитектур байгуулах ба тулгарах хүндрэлүүд",
             "date": "2018-11-01",
             "desc": "A blog based on my own experience with building a microservices architecture and the challenges I face. <br><b>Read: <a target='_blank' href='https://thekidiff.blogspot.com/2018/10/blog-post.html'>Blogger [MN]</a></b>",
-            "tags": ["article"],
+            "tags": [
+                "article"
+            ],
             "images": []
         },
         {
             "title": "Color Note Code",
             "date": "2018-10-++",
             "desc": "Repository of creative coding integrations and playground. Codebase is focused on audio visualization and image manipulation. Some visual ouputs are posted on following pages. <ul><li><a target='_blank' href='https://www.facebook.com/colornotecode'>Facebook</a></li><li><a target='_blank' href='https://www.instagram.com/colornotecode'>Instagram</a></li><li><a target='_blank' href='https://www.youtube.com/channel/UCGmwCteDtjSBGco4qqs1QIQ'>YouTube</a></li><li><a target='_blank' href='https://github.com/vonqo/gestalt'>Github</a></li></ul>",
-            "tags": ["project"],
+            "tags": [
+                "project"
+            ],
             "images": []
         }
     ]
